@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -P /tmp https://github.com/abdisa-alex/alx-low_level_programming/edit/master/0x18-dynamic_libraries/libdynamic.so
-export LD_PRELOAD=/tmp/libdaynamic.so
+wget https://github.com/peterchibunna/alx-low_level_programming/raw/master/0x18-dynamic_libraries/101-libfake.so -O /tmp/101-libfake.so
+export LD_PRELOAD=/tmp/101-libfake.so
